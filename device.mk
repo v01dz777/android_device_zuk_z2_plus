@@ -40,3 +40,7 @@ PRODUCT_PACKAGES += \
 
 # MSM8996 Headers
 PRODUCT_VENDOR_KERNEL_HEADERS := hardware/qcom/msm8996/kernel-headers
+
+# Boot animation
+TARGET_SCREEN_HEIGHT := 1920
+TARGET_SCREEN_WIDTH := 1080

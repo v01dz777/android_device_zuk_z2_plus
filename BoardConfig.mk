@@ -40,6 +40,7 @@ TARGET_KERNEL_CONFIG := z2_plus_defconfig
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+TARGET_SYSTEM_PROP += device/zuk/z2_plus/system.prop
 
 # inherit from the proprietary version
 -include vendor/zuk/z2_plus/BoardConfigVendor.mk
